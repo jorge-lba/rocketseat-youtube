@@ -1,0 +1,8 @@
+version: '3'
+services: 
+    api:
+        image: node:12.18.3-alpine3.12
+        volumes: 
+            # API
+            - ./api:/api
+        command: npm install -g typescript@3.9.7
