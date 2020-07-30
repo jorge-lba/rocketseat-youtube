@@ -1,8 +1,10 @@
-version: '3'
+version: '3' 
 services: 
     api:
-        image: node:12.18.3-alpine3.12
+        image: node:12.18.3
         volumes: 
             # API
             - ./api:/api
-        command: npm install -g typescript@3.9.7
+        ports: 
+            - 3333:3333
+        command: bash -c "cd /api && npm i && npm start"
