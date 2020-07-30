@@ -16,3 +16,5 @@
 
 **Dependency inversion principle:**
 - As classes não devem depender de implementações, devem depender de interfaces.
+
+**Padrão de pastas usado:** [Package by feature](https://phauer.com/2020/package-by-feature/)
