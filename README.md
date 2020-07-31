@@ -18,3 +18,16 @@
 - As classes não devem depender de implementações, devem depender de interfaces.
 
 **Padrão de pastas usado:** [Package by feature](https://phauer.com/2020/package-by-feature/)
+
+---
+
+O objetivo desse projeto é aprender um pouco sobre os princípios SOLID em uma API desenvolvida em Typescript rodando em Node.js.
+
+**Dependências utilizadas:**
+- express
+- nodemailer
+- uuidv4
+- ts-node-dev (dev)
+- typescript (dev)
+
+_Também foi gerado um arquivo docker-compose para rodar o código_
