@@ -3,7 +3,7 @@ import { createUserController } from "./useCases/CreateUser";
 
 const router = Router()
 
-router.post('/user', (request, response) => {
+router.post('/users', (request, response) => {
     return createUserController.handler(request, response)
 })
 
